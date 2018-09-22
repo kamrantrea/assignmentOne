@@ -3,6 +3,7 @@
 //Assignment One
 face myFace;
 circle myCircles;
+
 void setup() {
     background( 126, 192, 238 );
     // setting up the size of the canvas 
@@ -16,7 +17,17 @@ void setup() {
     myCircles = new circle();
 }
 void draw() {
-    myFace.head();
+  
+   
+     //println(mouseX + " : " + pmouseX);
+    //println(mouseY + " : " + pmouseY);
+   //translate(mouseX - 800/2,mouseY);
+  
+  // Face Class functions
+     myFace.head();
+     myFace.eyes();
+     myFace.mouth();
+     //Circe Class Functions
     myCircles.circles();
 }
  
